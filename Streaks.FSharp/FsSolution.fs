@@ -1,8 +1,8 @@
 ﻿namespace Streaks.FSharp
 
 module FsSolution =
-    let ComputeLength (s : string) =
-        let rec f (i: int) (c: int) (g: int) =
+    let ComputeLength (s: string) =
+        let rec f i c g =
             match i with
             | 0 -> max c g
             | _ when s.[i] = s.[i-1] -> f (i-1) (c+1) g
