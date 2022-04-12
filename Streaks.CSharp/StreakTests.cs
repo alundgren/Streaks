@@ -1,8 +1,7 @@
-using System;
 using Xunit;
-using streaks.fs;
+using Streaks.FSharp;
 
-namespace streaks.csharp
+namespace Streaks.CSharp
 {
     public class Streaks
     {
@@ -47,7 +46,7 @@ namespace streaks.csharp
         {
             foreach(var (length, s) in TestCases) 
             {
-                Assert.Equal(length, streaks.fs.FsSolution.ComputeLength(s));
+                Assert.Equal(length, FsSolution.ComputeLength(s));
             }
         }
     }

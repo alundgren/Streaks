@@ -1,6 +1,6 @@
 using System;
 
-namespace streaks.csharp
+namespace Streaks.CSharp
 {
     public class CSharpSolution 
     {

@@ -1,4 +1,4 @@
-﻿namespace streaks.fs
+﻿namespace Streaks.FSharp
 
 module FsSolution =
     let ComputeLength (s : string) =
